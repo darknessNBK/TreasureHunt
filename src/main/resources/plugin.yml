@@ -1,0 +1,11 @@
+name: TreasureHunt
+version: '${project.version}'
+main: com.lighty.TreasureHunt.Main
+api-version: 1.17
+authors: [ Lighty ]
+depend: ["ProtocolLib", "WRLDPaymentsAPI", "WorldEdit"]
+commands:
+  treasure:
+    permission: op
+  vault:
+    description: "Allows you to open your vault chest."

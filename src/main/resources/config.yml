@@ -1,0 +1,38 @@
+config:
+  spawn-frequency-in-minutes: 60
+  spawn-chance: 25
+  max-treasure-at-time: 1
+  mc-skin: WhaleCheeks
+city: {}
+portal: {}
+supplies:
+  diamond: 1000
+  gold: 5000
+  silver: 10000
+chances:
+  diamond: 5
+  gold: 10
+  silver: 25
+  generic: 60
+keyItems:
+  diamond:
+    name: '&5&lDiamond Key'
+    material: DIAMOND
+    custommodeldata: 1
+  gold:
+    name: '&9Gold Key'
+    material: GOLD_INGOT
+    custommodeldata: 1
+  silver:
+    name: '&aSilver Key'
+    material: IRON_INGOT
+    custommodeldata: 1
+  generic:
+    name: '&eGeneric Key'
+    material: IRON_NUGGET
+    custommodeldata: 1
+  genesis:
+    name: '&4&lGenesis Key'
+    material: NETHERITE_INGOT
+    custommodeldata: 1
+treasureLocations: {}
